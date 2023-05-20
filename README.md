@@ -30,7 +30,7 @@ The Shop Management System designed to facilitate the management of products, su
  **2. Navigate to the project directory**:
  <br />
  
-`cd Shop-Management-System/Shop Managment System\Shop Managment System`
+`cd Shop-Management-System\Shop Managment System`
 <br />
 
 **3. Install dependencies**:
