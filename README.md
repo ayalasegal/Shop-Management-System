@@ -15,6 +15,7 @@ The Shop Management System designed to facilitate the management of products, su
 - Express.js
 - MongoDB
 - HTML/CSS
+- Angular
 - JavaScript
 - Installation
 <br />
