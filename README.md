@@ -1,59 +1,54 @@
-# Shop-Management-System
-A web-based solution for managing products, suppliers, and employees. Features include CRUD operations, search functionality, inventory tracking, and user-friendly interface. Built with Node.js, MongoDB, and Express.js.
+# Shop RESTful API
 
-The Shop Management System designed to facilitate the management of products, suppliers, and employees in a shop or retail setting. This system provides essential features for inventory management, supplier management, and employee management, making it easier to track products, handle suppliers, and manage the workforce.
-<br />
-# Features
-**Product Management**: Add, update, and delete products. Search for products based on various parameters such as name, category, or price range.<br />
-**Supplier Management**: Manage supplier information, including contact details and company information. Search for suppliers by name, email, or phone number.<br />
-**Employee Management**: Handle employee records, including personal information, contact details, seniority, and salary. Perform employee searches by name, position, or contact information.<br />
-**Inventory Tracking**: Keep track of product stock levels and receive notifications for low stock items.<br />
-**User-Friendly Interface**: The system provides an intuitive and user-friendly interface for easy navigation and efficient management.<br />
-<br />
-# Technologies Used
+This is a RESTful API for a Shop Management System, providing endpoints to manage products, suppliers, and employees. It allows you to perform CRUD operations, search for products, employess, suppliers and track inventory. The API is built with Node.js, MongoDB, and Express.js.
+
+## Features
+
+- Create, read, update, and delete products
+- Manage suppliers and employees
+- Search for products based on various parameters
+- Track inventory and stock levels
+
+## Technologies Used
 - Node.js
 - Express.js
 - MongoDB
-- HTML/CSS
-- Angular
-- JavaScript
-- Installation
-<br />
 
-# Getting Started
+## Getting Started
 
- **1. Clone the repository**:
-<br />
+1. Clone the repository:
 
-` git clone https://github.com/ayalasegal/Shop-Management-System.git`
- <br />
- 
- **2. Navigate to the project directory**:
- <br />
- 
-`cd Shop-Management-System\Shop Managment System`
-<br />
+`git clone https://github.com/your-username/shop-management-system.git
+`
 
-**3. Install dependencies**:
-<br />
+2. Navigate to the project directory:
 
-`npm install`
-<br />
+`cd Shop-RESTful-API\shop-Management-System
+`
 
-**4. Start the application**:
-<br />
+3. Install dependencies:
 
-`npm run start`
-<br />
+`npm install
+`
 
-**Access the application**: 
-<br />
+4. Set up the MongoDB connection:
+   - Ensure MongoDB is installed and running.
+   - Update the MongoDB connection details in the `connectToMongoDB.js` file.
 
-in your browser at http://localhost:3000
-<br />
+5. Start the API server:
 
-# Usage
-Navigate to the appropriate URLs to access different sections of the application.<br />
-Use the provided forms and buttons to perform CRUD operations on products, suppliers, and employees.<br />
-Utilize the search functionality to find specific records based on various parameters.<br />
-Explore the user interface to access different features and manage your shop effectively.<br />
+`npm start`
+
+6. The API server should now be running on http://localhost:3000
+
+## Usage
+
+You can use tools like cURL, Postman, or your preferred API client to interact with the endpoints provided by the API. Refer to the API documentation for the available endpoints, request methods, and required parameters.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
